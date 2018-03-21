@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kruger.petagram.vistaFragment.GridListFragmentRVImpl"
+    android:orientation="vertical"
+    android:weightSum="3"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/border_bottom_gray"
+        android:layout_marginLeft="@dimen/horizontal_padding"
+        android:layout_marginRight="@dimen/horizontal_padding">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/civ_profile_image"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/first_pet"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            app:civ_shadow_color="#8BC34A" />
+
+        <TextView
+            android:id="@+id/tv_account_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:text="NOMBRE"
+            android:gravity="center"
+            android:paddingBottom="@dimen/vertical_padding"
+            android:paddingTop="@dimen/vertical_padding"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_pet_grid_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/horizontal_padding">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

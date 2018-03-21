@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_setup_account">Configurar cuenta</string>
+    <string name="menu_receive_notifications">Recibir notificaciones</string>
+
+    <!--ACTIVITY CONTACTO-->
+    <string name="name">Nombre</string>
+    <string name="email">Correo electrónico</string>
+    <string name="message">Mensaje</string>
+    <string name="send_message">Enviar comentario</string>
+    <string name="validate_name">El nombre no puede quedar vacío</string>
+    <string name="validate_email">El correo electrónico no puede quedar vacío</string>
+    <string name="validate_message">El mensaje no puede quedar vacío</string>
+    <string name="email_sent">El mensaje fue enviado exitosamente</string>
+    <string name="email_send_failed">Ocurrió un error al enviar el mensaje</string>
+    <string name="authentication_failed">Ocurrió un error de autenticación</string>
+    <string name="unexpected_error">Ocurrió un error inesperado</string>
+
+    <!--ACTIVITY ACERCA DE-->
+    <string name="names">Nombres</string>
+    <string name="last_names">Apellidos</string>
+    <string name="age">Edad</string>
+    <string name="email_about_us">Correo electrónico</string>
+    <string name="phone">Teléfono</string>
+
+    <!--ACTIVITY ACERCA DE-->
+    <string name="username">Escriba su usuario</string>
+    <string name="save_account">Guardar cuenta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="error_rating">Ocurrió un error al actualizar el rating</string>
+
+
+    <string name="see_profile">Ver mi perfil</string>
+    <string name="follow_unfolow">Seguir/Dejar de seguir</string>
+    <string name="see_user">Ver usuario</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_star"
+        android:icon="@mipmap/ic_star"
+        android:title="@string/app_name"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/mContact"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="100">
+    </item>
+
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/menu_about"
+        android:orderInCategory="200">
+    </item>
+
+    <item
+        android:id="@+id/mSetupAccount"
+        android:title="@string/menu_setup_account"
+        android:orderInCategory="300">
+    </item>
+
+    <item
+        android:id="@+id/mReceiveNotifications"
+        android:title="@string/menu_receive_notifications"
+        android:orderInCategory="400">
+    </item>
+</menu>

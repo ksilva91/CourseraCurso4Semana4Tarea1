@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="name_size">20sp</dimen>
+    <dimen name="rating_size">25sp</dimen>
+    <dimen name="rating_grid_size">12sp</dimen>
+    <dimen name="horizontal_padding">20dp</dimen>
+    <dimen name="vertical_padding">16dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="elevation_action_bar">4dp</dimen>
+    <dimen name="fab_margin">12dp</dimen>
+</resources>
